@@ -1,0 +1,55 @@
+#game-table {
+    border: none;
+    background: green;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+td {
+    width: 8px !important;
+    height: 8px !important;
+    border: thin solid green;
+}
+
+.snake {
+    background-color: black;
+
+}
+
+.pray {
+    border-radius: 50%;
+    background: black;
+}
+
+
+#game-over {
+    opacity:    0.5;
+    background: #000;
+    width:      100%;
+    height:     100%;
+    z-index:    10;
+    top:        0;
+    left:       0;
+    position:   fixed;
+}
+
+#game-over>P {
+    color: red;
+    font-size: 3em;
+}
+
+.hidden {
+    display: none;
+}
+
+.description {
+    font-style: italic;
+}
